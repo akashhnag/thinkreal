@@ -1,0 +1,26 @@
+.rightsidenav-block{
+    margin-top:5px;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+
+.red-dot {
+  height: 8px;
+  width: 8px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green-dot {
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tasks{
+  font-size: 15px;
+}
