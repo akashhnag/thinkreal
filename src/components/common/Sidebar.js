@@ -5,9 +5,12 @@ import  "../../App.css";
 import pic from "./download.jpg";
 import dashboardicon from "../../svg-icons/function-line.svg";
 import projectsicon from "../../svg-icons/community-line.svg";
+import calendericon from "../../svg-icons/calendar-2-line.svg";
+import leadsicon from "../../svg-icons/dashboard-3-line.svg";
+import reportsicon from "../../svg-icons/file-list-line.svg";
+import messagesicon from "../../svg-icons/jam_message.svg";
 
-function Sidebar(props) {
-    const {dashboard}=props;
+function Sidebar() {
     return (
         <div>
             <div className="sidnav-block">
@@ -38,19 +41,29 @@ function Sidebar(props) {
 
                         <Link to="/projects">
                             <img src={projectsicon} className="icon-image"></img>
-                            <span className="ml-2">Projects</span>
+                            <span className="ml-2 text-capitalize">Projects</span>
+                        </Link>
+
+                        <Link to="/tasks">
+                            <img src={calendericon} className="icon-image"></img>
+                            <span className="ml-2 text-capitalize">tasks</span>
+                        </Link>
+
+                        <Link to="/leads">
+                            <img src={leadsicon} className="icon-image"></img>
+                            <span className="ml-2 text-capitalize">leads</span>
+                        </Link>
+
+                        <Link to="/reports">
+                            <img src={reportsicon} className="icon-image"></img>
+                            <span className="ml-2 text-capitalize">reports</span>
+                        </Link>
+
+                        <Link to="/messages">
+                            <img src={messagesicon} className="icon-image"></img>
+                            <span className="ml-2 text-capitalize">messages</span>
                         </Link>
                            
-                            
-                           
-                        
-                            
-                            {/* 
-                            <a href="">Leads</a>
-                            <a href="">Messages</a>
-                            <a href="">Analytics</a>
-                            <a href="">Reports</a>
-                            <a href="">Tasks</a> */}
                     </div>
 
                     {/* settings and logout */}

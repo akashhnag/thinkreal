@@ -1,0 +1,20 @@
+.contacts-heading{
+    color:blue;
+    background-color: white;
+    height: 100%;
+}
+
+.contacts{
+    background-color: white;
+}
+
+ul.contact-list{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+
+.user-icon{
+    width:32px;
+    height:32px;
+}

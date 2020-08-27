@@ -8,8 +8,8 @@ function ImageCards() {
         <div>
             <Card style={{borderRadius:"10px"}}>
                 <Card.Img variant="top" src={img} style={{borderRadius:"10px",height:"150px"}}/>
-                <Card.Body className="card-body">
-                    <Card.Title className="card-title mb-0">Icon sterling Towers</Card.Title>
+                <Card.Body className="image-card-body">
+                    <Card.Title className="image-card-title mb-0">Icon sterling Towers</Card.Title>
                     <Card.Text>
                         <div>
                         In Vancouver

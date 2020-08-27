@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row,Col,Form,Card } from "react-bootstrap";
+import { Row,Col,Form } from "react-bootstrap";
 import ImageCards from "../../common/ImageCards";
 
 
@@ -12,10 +12,10 @@ function Projects() {
                 <Form>
                 <Form.Control as="select">
                 <option>Location</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>Bangalore</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+                <option>Chennai</option>
                 </Form.Control>
                 </Form>                
                 </Col>
@@ -23,11 +23,9 @@ function Projects() {
                 <Col>
                 <Form>
                 <Form.Control as="select">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>3bhk</option>
+                <option>2bhk</option>
+                <option>1bhk</option>
                 </Form.Control>
                 </Form>   
                 </Col>
@@ -35,11 +33,10 @@ function Projects() {
                 <Col>
                 <Form>
                 <Form.Control as="select">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>Pricing</option>
+                <option>10,000-15,000</option>
+                <option>15,000-20,000</option>
+                <option>20,000-25000</option>
                 </Form.Control>
                 </Form>
                 </Col>
@@ -47,11 +44,9 @@ function Projects() {
                 <Col>
                 <Form>
                 <Form.Control as="select">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>Availability</option>
+                <option>Available</option>
+                <option>Not Available</option>
                 </Form.Control>
                 </Form>
                 </Col>

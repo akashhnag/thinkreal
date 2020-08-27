@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar, Col} from 'react-bootstrap';
 import "./Navbar.css";
+import bellicon from "../../svg-icons/notifications2.svg";
 
 function TopNavbar() {
     return (
@@ -19,10 +20,7 @@ function TopNavbar() {
                 {/* notifications    */}
                 <Col>                
                     <Navbar.Collapse className="justify-content-end">
-                    Notifications
-                    {/* <Navbar.Text>
-                    Signed in as: <a href="#login">Mark Otto</a>
-                    </Navbar.Text> */}
+                        <img src={bellicon} ></img>
                     </Navbar.Collapse>
                 </Col>            
             </Navbar>

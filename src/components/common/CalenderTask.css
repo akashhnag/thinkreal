@@ -1,0 +1,27 @@
+.calender-block{
+    background-color: white;
+}
+
+.calender-heading{
+    color:blue;
+}
+
+.task-card{
+    border-radius:5px;
+}
+
+.action-button{
+    background-color: white;
+    color:black;
+    border-color: black;
+    line-height: 0.5;
+}
+
+.action-button:hover{
+    background-color: gray;
+}
+
+.tick-icon{
+    height:13px;
+    width:13px
+}

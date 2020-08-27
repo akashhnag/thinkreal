@@ -5,6 +5,9 @@ import SquareCards from "../../common/SquareCards";
 import { Col,Row, Card } from 'react-bootstrap';
 import img from "./download.jpg";
 import "./Dashboard.css";
+import  "../../../App.css";
+import editlineicon from "../../../svg-icons/edit-2-line.svg";
+import checkicon from "../../../svg-icons/cil_check-alt.svg";
 
 const option = {
     xAxis: {
@@ -26,19 +29,22 @@ function Dashboard() {
             <Row>          
             <Col md={8}>
                 <Card className="mt-4 shadow" style={{borderRadius:"8px"}}>
-                    <Card.Body>Hey Nikhil, start typing here to quickly add a lead</Card.Body>
+                    <Card.Body><img src={editlineicon} className="icon-image"></img>
+                    <span className="ml-2">Hey Nikhil, start typing here to quickly add a lead</span>
+                    <img src={checkicon} className="icon-image float-right"></img>
+                    </Card.Body>
                 </Card>
 
                 {/* square cards */}
                 <Row>
                     <Col>
-                        <SquareCards number={22} content="new leads"></SquareCards>
+                        <SquareCards number={22} content="new leads" icon="newlead"></SquareCards>
                     </Col>
                     <Col>
-                        <SquareCards number={8} content="new messages"></SquareCards>
+                        <SquareCards number={8} content="new messages" icon="message"></SquareCards>
                     </Col>
                     <Col>
-                        <SquareCards number={10} content="active clients"></SquareCards>
+                        <SquareCards number={10} content="active clients" icon="usercheck"></SquareCards>
                     </Col>
                 </Row>
                 {/* square cards ends */}
